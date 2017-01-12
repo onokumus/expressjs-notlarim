@@ -1,0 +1,15 @@
+{
+  "name": "00-kurulum",
+  "version": "1.0.0",
+  "description": "express.js notlarım",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "onokumus <onokumus@gmail.com> (https://github.com/onokumus)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

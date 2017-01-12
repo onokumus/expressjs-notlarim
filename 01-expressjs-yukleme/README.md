@@ -43,9 +43,10 @@ app.listen(3000, function () {
   console.log('express.js sunucusu 3000 portundan başlatıldı');
 });
 ```
+[Detaylı Bilgi](http://expressjs.com/en/4x/api.html#app.listen)
 
 ## Test
 
 Tarayıcıda [http://127.0.0.1:3000](http://127.0.0.1:3000) adresinden "Merhaba Dünya!" yazısı görülmelidir.
 
-> Eğer uygulamanın gerçek bir sunucuda çalışması isteniyorsa port 80 seçilmelidir. O zaman http://site.com linkinde anasayfa görülecektir. Linux ortamında 80 numaralı porta erişim için root yetkisine sahip olunmalıdır. Örneğin `sudo npm start` komutu verilmelidir. 
+> Eğer uygulamanın gerçek bir sunucuda çalışması isteniyorsa port 80 seçilmelidir. O zaman http://site.com linkinde anasayfa görülecektir. Linux ortamında 80 numaralı porta erişim için root yetkisine sahip olunmalıdır. Örneğin `sudo npm start` komutu verilmelidir.
