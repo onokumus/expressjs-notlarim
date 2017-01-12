@@ -7,3 +7,4 @@ express.js notlarım
 - [diğer sayfalar](02-diger-sayfalar)
 - [konsoldan izleme](03-konsoldan-izleme)
 - [statik dosyalar](04-statik-dosyalar)
+- [json gönderme](05-json-gonderme)
