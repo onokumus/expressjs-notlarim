@@ -48,4 +48,4 @@ app.listen(3000, function () {
 
 Tarayıcıda [http://127.0.0.1:3000](http://127.0.0.1:3000) adresinden "Merhaba Dünya!" yazısı görülmelidir.
 
-> Eğer uygulmanın gerçek bir sunucuda çalışması isteniyorsa port 80 seçilmelidir. O zaman http://site.com linkinde anasayfa görülecektir. Linux ortamında 80 numaralı porta erişim için root yetkisine sahip olunmalıdır. Örneğin `sudo npm start` komutu verilmelidir. 
+> Eğer uygulamanın gerçek bir sunucuda çalışması isteniyorsa port 80 seçilmelidir. O zaman http://site.com linkinde anasayfa görülecektir. Linux ortamında 80 numaralı porta erişim için root yetkisine sahip olunmalıdır. Örneğin `sudo npm start` komutu verilmelidir. 
