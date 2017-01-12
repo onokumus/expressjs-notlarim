@@ -5,6 +5,6 @@ app.get('/', function (request, response) {
   response.send('Merhaba Dünya!');
 });
 
-app.listen(80, function () {
+app.listen(3000, function () {
   console.log('express.js sunucusu 3000 portundan başlatıldı');
 });
