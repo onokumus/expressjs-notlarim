@@ -1,0 +1,43 @@
+
+<h1>Kişiler</h1>
+<div class="row">
+  {{#each kisiler as |kisi|}}
+    <div class="col-sm-2">
+        <div class="card">
+            <div class="card-block">
+                <h4 class="card-title">{{kisi.isim}}</h4>
+                <h6 class="card-subtitle mb-2 text-muted">{{kisi.soyisim}}</h6>
+                <p class="card-text">Yaş: {{kisi.yas}}</p>
+            </div>
+        </div>
+    </div>
+  {{/each}}
+
+</div>
+<hr>
+<h2>Kişi Ekle</h2>
+<form action="/kisiler/ekle" method="post">
+
+  <div class="form-group row">
+    <label class="col-2 col-form-label">Ad</label>
+    <div class="col-10">
+      <input class="form-control" type="text" name="isim">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label class="col-2 col-form-label">Soyad</label>
+    <div class="col-10">
+      <input class="form-control" type="text" name="soyisim">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label class="col-2 col-form-label">Yaş</label>
+    <div class="col-10">
+      <input class="form-control" type="number" name="yas">
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Kişi Ekle</button>
+</form>
