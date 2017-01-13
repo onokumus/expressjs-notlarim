@@ -11,3 +11,4 @@ express.js notlarım
 - [şablon kullanımı](06-template-engine)
 - [ortak şablon](07-ortak-sablon)
 - [form](08-form)
+- [yönlendirme](09-routing)

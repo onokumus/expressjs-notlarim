@@ -1,0 +1,20 @@
+<h1>Kişiler</h1>
+<ul>
+  {{#each kisiler as |kisi|}}
+    <li>{{kisi.isim}}</li>
+  {{/each}}
+</ul>
+<hr>
+<h2>Kişi Ekle</h2>
+<form action="/kisiler/ekle" method="post">
+  <label>Ad :</label>
+  <input type="text" name="isim">
+  <br>
+  <label>Soyad :</label>
+  <input type="text" name="soyisim">
+  <br>
+  <label>Yaş :</label>
+  <input type="number" name="yas">
+  <br>
+  <input type="submit" value="Kişi Ekle">
+</form>
